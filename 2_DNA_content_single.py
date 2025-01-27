@@ -4,7 +4,7 @@
 sequence = 'ATGCGCCTGAAC'
 nuc = 1
 
-nucleotide = ['A' = 0, 'T' = 0, 'G' = 0, 'C' =  0] 
+nucleotide = [0, 0, 0, 0] 
 n = 0
 
 for i in sequence: # so inefficient but idk how to fix it
