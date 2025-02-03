@@ -1,2 +1,2 @@
-# IBO_Vorbereitung
+# Bioinformatik basics
 simple example questions to learn
