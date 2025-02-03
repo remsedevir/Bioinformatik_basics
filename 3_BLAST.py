@@ -20,11 +20,11 @@ dna = generate_sequence(200)
 print(dna)
 
 
-for i in range(0,len(dna)-3):   
+for i in range(0,len(dna)-len(primer)):   
     n = 0
     p = 0
     if dna[i] == primer[0]:
-        i = p
+        p = i + 1
         n += 1
         while dna[p] == primer[n]: # idk why that's not working
             n += 1
